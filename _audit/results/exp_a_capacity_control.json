@@ -1,0 +1,44 @@
+{
+  "V": {
+    "auc": 0.8773,
+    "n_features": 40
+  },
+  "M_top5": {
+    "auc": 0.7219,
+    "n_features": 5,
+    "mef": 0.5883
+  },
+  "M_top10": {
+    "auc": 0.7507,
+    "n_features": 10,
+    "mef": 0.6647
+  },
+  "M_top20": {
+    "auc": 0.7715,
+    "n_features": 20,
+    "mef": 0.7196
+  },
+  "M_top40": {
+    "auc": 0.831,
+    "n_features": 40,
+    "mef": 0.8773
+  },
+  "M_top60": {
+    "auc": 0.8464,
+    "n_features": 60,
+    "mef": 0.9183
+  },
+  "M_no_timing": {
+    "auc": 0.8124,
+    "n_features": 93
+  },
+  "M_timing_only": {
+    "auc": 0.8465,
+    "n_features": 62
+  },
+  "M_one_per_itemid": {
+    "auc": 0.8222,
+    "n_features": 31,
+    "mef_vs_V": 0.8542
+  }
+}

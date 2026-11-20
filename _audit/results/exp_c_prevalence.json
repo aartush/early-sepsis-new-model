@@ -1,0 +1,228 @@
+{
+  "true_prevalence": 0.0241,
+  "source": "1088 sepsis / 45148 stays, their shared_dataset_mimiciv.csv",
+  "balanced": {
+    "auc": 0.863688623116741,
+    "average_precision": 0.8595471576837903,
+    "brier": 0.1512942752700362,
+    "operating_points": [
+      {
+        "threshold": 0.02,
+        "sens": 0.999197247706422,
+        "spec": 0.04827981651376147,
+        "precision": 0.512167881495415,
+        "tp": 8713,
+        "fp": 8299,
+        "net_benefit": 0.4898871934094739
+      },
+      {
+        "threshold": 0.05,
+        "sens": 0.9946100917431193,
+        "spec": 0.13830275229357797,
+        "precision": 0.5358003336010378,
+        "tp": 8673,
+        "fp": 7514,
+        "net_benefit": 0.47462880251086437
+      },
+      {
+        "threshold": 0.1,
+        "sens": 0.9803899082568808,
+        "spec": 0.2787844036697248,
+        "precision": 0.5761558161477288,
+        "tp": 8549,
+        "fp": 6289,
+        "net_benefit": 0.4501274209989806
+      },
+      {
+        "threshold": 0.15,
+        "sens": 0.9681192660550458,
+        "spec": 0.38772935779816514,
+        "precision": 0.6125825411798853,
+        "tp": 8442,
+        "fp": 5339,
+        "net_benefit": 0.43003575283324336
+      },
+      {
+        "threshold": 0.2,
+        "sens": 0.951605504587156,
+        "spec": 0.4706422018348624,
+        "precision": 0.6425584636828249,
+        "tp": 8298,
+        "fp": 4616,
+        "net_benefit": 0.4096330275229358
+      },
+      {
+        "threshold": 0.3,
+        "sens": 0.9049311926605504,
+        "spec": 0.6114678899082568,
+        "precision": 0.6996187605284157,
+        "tp": 7891,
+        "fp": 3388,
+        "net_benefit": 0.3692087155963303
+      },
+      {
+        "threshold": 0.45,
+        "sens": 0.793348623853211,
+        "spec": 0.7682339449541284,
+        "precision": 0.7739120707014208,
+        "tp": 6918,
+        "fp": 2021,
+        "net_benefit": 0.3018609257714763
+      }
+    ]
+  },
+  "honest_analytic": [
+    {
+      "threshold": 0.02,
+      "sens": 0.999197247706422,
+      "spec": 0.04827981651376147,
+      "precision_balanced": 0.5122,
+      "precision_honest": 0.0253,
+      "overstatement_factor": 20.3,
+      "net_benefit_balanced": 0.4899,
+      "net_benefit_honest": 0.0051
+    },
+    {
+      "threshold": 0.05,
+      "sens": 0.9946100917431193,
+      "spec": 0.13830275229357797,
+      "precision_balanced": 0.5358,
+      "precision_honest": 0.0277,
+      "overstatement_factor": 19.3,
+      "net_benefit_balanced": 0.4746,
+      "net_benefit_honest": -0.0203
+    },
+    {
+      "threshold": 0.1,
+      "sens": 0.9803899082568808,
+      "spec": 0.2787844036697248,
+      "precision_balanced": 0.5762,
+      "precision_honest": 0.0325,
+      "overstatement_factor": 17.7,
+      "net_benefit_balanced": 0.4501,
+      "net_benefit_honest": -0.0546
+    },
+    {
+      "threshold": 0.15,
+      "sens": 0.9681192660550458,
+      "spec": 0.38772935779816514,
+      "precision_balanced": 0.6126,
+      "precision_honest": 0.0376,
+      "overstatement_factor": 16.3,
+      "net_benefit_balanced": 0.43,
+      "net_benefit_honest": -0.0821
+    },
+    {
+      "threshold": 0.2,
+      "sens": 0.951605504587156,
+      "spec": 0.4706422018348624,
+      "precision_balanced": 0.6426,
+      "precision_honest": 0.0425,
+      "overstatement_factor": 15.1,
+      "net_benefit_balanced": 0.4096,
+      "net_benefit_honest": -0.1062
+    },
+    {
+      "threshold": 0.3,
+      "sens": 0.9049311926605504,
+      "spec": 0.6114678899082568,
+      "precision_balanced": 0.6996,
+      "precision_honest": 0.0544,
+      "overstatement_factor": 12.9,
+      "net_benefit_balanced": 0.3692,
+      "net_benefit_honest": -0.1407
+    },
+    {
+      "threshold": 0.45,
+      "sens": 0.793348623853211,
+      "spec": 0.7682339449541284,
+      "precision_balanced": 0.7739,
+      "precision_honest": 0.0779,
+      "overstatement_factor": 9.9,
+      "net_benefit_balanced": 0.3019,
+      "net_benefit_honest": -0.1659
+    }
+  ],
+  "honest_empirical": [
+    {
+      "threshold": 0.02,
+      "mean": 0.0051,
+      "std": 0.0009,
+      "min": 0.0042,
+      "max": 0.0073
+    },
+    {
+      "threshold": 0.05,
+      "mean": -0.0203,
+      "std": 0.0035,
+      "min": -0.0273,
+      "max": -0.0135
+    },
+    {
+      "threshold": 0.1,
+      "mean": -0.0546,
+      "std": 0.0092,
+      "min": -0.0818,
+      "max": -0.0346
+    },
+    {
+      "threshold": 0.15,
+      "mean": -0.0821,
+      "std": 0.0131,
+      "min": -0.1215,
+      "max": -0.0585
+    },
+    {
+      "threshold": 0.2,
+      "mean": -0.1062,
+      "std": 0.0152,
+      "min": -0.1411,
+      "max": -0.0748
+    },
+    {
+      "threshold": 0.3,
+      "mean": -0.1407,
+      "std": 0.0202,
+      "min": -0.1853,
+      "max": -0.1016
+    },
+    {
+      "threshold": 0.45,
+      "mean": -0.1659,
+      "std": 0.0291,
+      "min": -0.2587,
+      "max": -0.1162
+    }
+  ],
+  "deployed_precision": [
+    {
+      "threshold": 0.02,
+      "precision_deployed": 0.5153664302600472
+    },
+    {
+      "threshold": 0.05,
+      "precision_deployed": 0.5254854368932039
+    },
+    {
+      "threshold": 0.1,
+      "precision_deployed": 0.5397489539748954
+    },
+    {
+      "threshold": 0.15,
+      "precision_deployed": 0.5570032573289903
+    },
+    {
+      "threshold": 0.2,
+      "precision_deployed": 0.5716594827586207
+    },
+    {
+      "threshold": 0.3,
+      "precision_deployed": 0.5884003741814781
+    },
+    {
+      "threshold": 0.45,
+      "precision_deployed": 0.6059322033898306
+    }
+  ],
+  "agreement_max_abs_diff_analytic_vs_empirical": 0.0
+}

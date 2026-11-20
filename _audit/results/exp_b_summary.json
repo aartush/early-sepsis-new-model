@@ -1,0 +1,52 @@
+{
+  "union_full": {
+    "cohort": "full",
+    "n_patients": 45148,
+    "n_sepsis": 1088,
+    "base_rate": 0.0241,
+    "n_fire": 2539,
+    "pct_fire": 5.62,
+    "sepsis_if_fires": 250,
+    "ppv_if_fires": 0.0985,
+    "captures_fraction_of_sepsis": 0.2298,
+    "auc_union_indicator": 0.5889
+  },
+  "union_balanced": {
+    "cohort": "balanced",
+    "n_patients": 17440,
+    "n_sepsis": 8720,
+    "base_rate": 0.5,
+    "n_fire": 2419,
+    "pct_fire": 13.87,
+    "sepsis_if_fires": 2000,
+    "ppv_if_fires": 0.8268,
+    "captures_fraction_of_sepsis": 0.2294,
+    "auc_union_indicator": 0.5907
+  },
+  "ablation_full": {
+    "cohort": "full",
+    "auc_full": 0.8773,
+    "auc_without_artefacts": 0.8662,
+    "delta": -0.0111,
+    "n_features_full": 40,
+    "n_features_without": 32
+  },
+  "ablation_balanced": {
+    "cohort": "balanced_per_split",
+    "auc_full": 0.8691,
+    "auc_without_artefacts": 0.8664,
+    "delta": -0.0026,
+    "n_features_full": 40,
+    "n_features_without": 32
+  },
+  "artefact_features": [
+    "225624_diff_0",
+    "225624_diff_1",
+    "225624_diff_2",
+    "220621_diff_0",
+    "220621_diff_1",
+    "220621_diff_2",
+    "220645_diff_1",
+    "220545_diff_2"
+  ]
+}

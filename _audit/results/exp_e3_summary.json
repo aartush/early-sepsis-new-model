@@ -1,0 +1,90 @@
+{
+  "curve": [
+    {
+      "shift": 0.0,
+      "entangled": 0.8547,
+      "desafe": 0.8712,
+      "desafe_cma": 0.8749,
+      "entangled_sd": 0.0089,
+      "desafe_cma_sd": 0.0124,
+      "n_folds": 5
+    },
+    {
+      "shift": 0.2,
+      "entangled": 0.8162,
+      "desafe": 0.834,
+      "desafe_cma": 0.8417,
+      "entangled_sd": 0.0127,
+      "desafe_cma_sd": 0.0129,
+      "n_folds": 5
+    },
+    {
+      "shift": 0.4,
+      "entangled": 0.7913,
+      "desafe": 0.8087,
+      "desafe_cma": 0.8179,
+      "entangled_sd": 0.0156,
+      "desafe_cma_sd": 0.0195,
+      "n_folds": 5
+    },
+    {
+      "shift": 0.6,
+      "entangled": 0.762,
+      "desafe": 0.7851,
+      "desafe_cma": 0.7909,
+      "entangled_sd": 0.0209,
+      "desafe_cma_sd": 0.0131,
+      "n_folds": 5
+    },
+    {
+      "shift": 0.8,
+      "entangled": 0.7531,
+      "desafe": 0.7812,
+      "desafe_cma": 0.7791,
+      "entangled_sd": 0.0132,
+      "desafe_cma_sd": 0.0084,
+      "n_folds": 5
+    }
+  ],
+  "policy_flip": {
+    "entangled": 0.8435,
+    "desafe": 0.8531,
+    "desafe_cma": 0.8713,
+    "entangled_sd": 0.013,
+    "desafe_cma_sd": 0.0113
+  },
+  "slopes": {
+    "entangled": -0.1287,
+    "desafe": -0.1145,
+    "desafe_cma": -0.1212
+  },
+  "paired_deltas": {
+    "0.0": {
+      "mean_delta": 0.0202,
+      "folds_won": 5,
+      "n_folds": 5
+    },
+    "0.2": {
+      "mean_delta": 0.0255,
+      "folds_won": 5,
+      "n_folds": 5
+    },
+    "0.4": {
+      "mean_delta": 0.0266,
+      "folds_won": 5,
+      "n_folds": 5
+    },
+    "0.6": {
+      "mean_delta": 0.0289,
+      "folds_won": 5,
+      "n_folds": 5
+    },
+    "0.8": {
+      "mean_delta": 0.026,
+      "folds_won": 5,
+      "n_folds": 5
+    }
+  },
+  "n_folds": 5,
+  "note": "mean over 5 folds; per-fold values in exp_e3_per_fold.csv"
+}

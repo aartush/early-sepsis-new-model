@@ -1,0 +1,157 @@
+feature,itemid,label,kind,auc,equiv_distance_from_chance
+220621_span,220621,Glucose (serum),span,0.6769,0.1769
+220621_n_change,220621,Glucose (serum),change,0.6633,0.1633
+220621_n_distinct,220621,Glucose (serum),distinct,0.6573,0.1573
+225677_n_distinct,225677,Platelet count,distinct,0.6487,0.1487
+220645_span,220645,220645_span,span,0.6466,0.1466
+225677_span,225677,Platelet count,span,0.6465,0.1465
+220546_n_distinct,220546,White blood cell count,distinct,0.6449,0.1449
+227442_span,227442,227442_span,span,0.6445,0.1445
+225625_n_distinct,225625,225625_n_distinct,distinct,0.6416,0.1416
+225625_span,225625,225625_span,span,0.64,0.14
+220645_n_change,220645,220645_n_change,change,0.6371,0.1371
+225677_n_change,225677,Platelet count,change,0.6369,0.1369
+220546_first_hour,220546,White blood cell count,hour,0.6337,0.1337
+225625_n_change,225625,225625_n_change,change,0.6312,0.1312
+227442_n_change,227442,227442_n_change,change,0.6291,0.1291
+225624_span,225624,BUN (alternate),span,0.6263,0.1263
+220545_n_distinct,220545,Hematocrit,distinct,0.625,0.125
+220645_n_distinct,220645,220645_n_distinct,distinct,0.6247,0.1247
+220635_span,220635,Phosphate,span,0.6229,0.1229
+225624_n_change,225624,BUN (alternate),change,0.619,0.119
+220635_n_distinct,220635,Phosphate,distinct,0.6173,0.1173
+220635_n_change,220635,Phosphate,change,0.6162,0.1162
+227442_n_distinct,227442,227442_n_distinct,distinct,0.6149,0.1149
+225624_n_distinct,225624,BUN (alternate),distinct,0.6104,0.1104
+220545_first_hour,220545,Hematocrit,hour,0.6053,0.1053
+225677_first_hour,225677,Platelet count,hour,0.6034,0.1034
+227444_span,227444,PTT,span,0.5997,0.0997
+220546_span,220546,White blood cell count,span,0.5993,0.0993
+225625_first_hour,225625,225625_first_hour,hour,0.5978,0.0978
+220546_n_change,220546,White blood cell count,change,0.596,0.096
+220045_span,220045,Heart rate,span,0.5881,0.0881
+227444_n_change,227444,PTT,change,0.5843,0.0843
+220621_first_hour,220621,Glucose (serum),hour,0.5843,0.0843
+220615_span,220615,Creatinine,span,0.5815,0.0815
+223762_span,223762,223762_span,span,0.5797,0.0797
+220545_span,220545,Hematocrit,span,0.5796,0.0796
+220615_n_change,220615,Creatinine,change,0.5766,0.0766
+220635_first_hour,220635,Phosphate,hour,0.5751,0.0751
+220615_n_distinct,220615,Creatinine,distinct,0.5718,0.0718
+220050_span,220050,Arterial BP systolic,span,0.5674,0.0674
+220545_n_change,220545,Hematocrit,change,0.5634,0.0634
+220645_first_hour,220645,220645_first_hour,hour,0.5611,0.0611
+220052_span,220052,Arterial BP mean,span,0.5582,0.0582
+220051_span,220051,Arterial BP diastolic,span,0.5579,0.0579
+223762_n_change,223762,223762_n_change,change,0.5573,0.0573
+220045_n_change,220045,Heart rate,change,0.5491,0.0491
+225641_span,225641,Differential lymphs,span,0.5484,0.0484
+225643_span,225643,225643_span,span,0.5484,0.0484
+225639_span,225639,225639_span,span,0.5483,0.0483
+225642_span,225642,225642_span,span,0.5478,0.0478
+225624_first_hour,225624,BUN (alternate),hour,0.5449,0.0449
+225641_n_change,225641,Differential lymphs,change,0.5415,0.0415
+225639_n_change,225639,225639_n_change,change,0.5414,0.0414
+225643_n_change,225643,225643_n_change,change,0.5414,0.0414
+223900_n_static_hours,223900,GCS verbal response,hours,0.5413,0.0413
+220210_span,220210,Respiratory rate,span,0.5412,0.0412
+225642_n_change,225642,225642_n_change,change,0.5409,0.0409
+227468_span,227468,Fibrinogen,span,0.5402,0.0402
+220632_span,220632,Magnesium,span,0.5371,0.0371
+227442_first_hour,227442,227442_first_hour,hour,0.5357,0.0357
+227468_n_change,227468,Fibrinogen,change,0.5324,0.0324
+220051_n_static_hours,220051,Arterial BP diastolic,hours,0.5269,0.0269
+220632_n_change,220632,Magnesium,change,0.5257,0.0257
+220615_first_hour,220615,Creatinine,hour,0.5256,0.0256
+227467_first_hour,227467,227467_first_hour,hour,0.5171,0.0171
+227467_n_static_hours,227467,227467_n_static_hours,hours,0.5158,0.0158
+225634_span,225634,225634_span,span,0.5156,0.0156
+225639_n_distinct,225639,225639_n_distinct,distinct,0.5134,0.0134
+223901_span,223901,GCS motor response,span,0.5132,0.0132
+225641_n_distinct,225641,Differential lymphs,distinct,0.5132,0.0132
+225643_n_distinct,225643,225643_n_distinct,distinct,0.513,0.013
+223901_n_change,223901,GCS motor response,change,0.5129,0.0129
+220739_span,220739,220739_span,span,0.5128,0.0128
+220739_n_change,220739,220739_n_change,change,0.512,0.012
+220050_n_change,220050,Arterial BP systolic,change,0.5119,0.0119
+225642_n_distinct,225642,225642_n_distinct,distinct,0.5117,0.0117
+227456_span,227456,227456_span,span,0.5105,0.0105
+225690_span,225690,225690_span,span,0.51,0.01
+225612_span,225612,BUN,span,0.5089,0.0089
+220210_n_static_hours,220210,Respiratory rate,hours,0.5076,0.0076
+220052_n_static_hours,220052,Arterial BP mean,hours,0.5067,0.0067
+hosp_to_icu,,hosp_to_icu,static,0.5057,0.0057
+227467_n_distinct,227467,227467_n_distinct,distinct,0.5048,0.0048
+220739_n_distinct,220739,220739_n_distinct,distinct,0.5041,0.0041
+225634_n_change,225634,225634_n_change,change,0.5021,0.0021
+225612_n_static_hours,225612,BUN,hours,0.5011,0.0011
+223901_n_distinct,223901,GCS motor response,distinct,0.5006,0.0006
+227456_n_static_hours,227456,227456_n_static_hours,hours,0.5005,0.0005
+225690_n_static_hours,225690,225690_n_static_hours,hours,0.5003,0.0003
+225690_n_distinct,225690,225690_n_distinct,distinct,0.4999,0.0001
+225690_n_change,225690,225690_n_change,change,0.4997,0.0003
+227456_n_change,227456,227456_n_change,change,0.4995,0.0005
+223901_first_hour,223901,GCS motor response,hour,0.4993,0.0007
+225612_n_distinct,225612,BUN,distinct,0.4991,0.0009
+225612_n_change,225612,BUN,change,0.4989,0.0011
+225634_n_static_hours,225634,225634_n_static_hours,hours,0.4979,0.0021
+220739_first_hour,220739,220739_first_hour,hour,0.4969,0.0031
+220632_n_distinct,220632,Magnesium,distinct,0.4968,0.0032
+227444_n_distinct,227444,PTT,distinct,0.4966,0.0034
+220210_n_distinct,220210,Respiratory rate,distinct,0.4964,0.0036
+220045_n_distinct,220045,Heart rate,distinct,0.4962,0.0038
+227468_n_distinct,227468,Fibrinogen,distinct,0.4956,0.0044
+220052_n_change,220052,Arterial BP mean,change,0.4933,0.0067
+220210_n_change,220210,Respiratory rate,change,0.4924,0.0076
+223762_n_distinct,223762,223762_n_distinct,distinct,0.4911,0.0089
+220050_n_static_hours,220050,Arterial BP systolic,hours,0.4881,0.0119
+220739_n_static_hours,220739,220739_n_static_hours,hours,0.488,0.012
+223901_n_static_hours,223901,GCS motor response,hours,0.4871,0.0129
+227467_span,227467,227467_span,span,0.4856,0.0144
+227467_n_change,227467,227467_n_change,change,0.4842,0.0158
+225612_first_hour,225612,BUN,hour,0.4838,0.0162
+225690_first_hour,225690,225690_first_hour,hour,0.4837,0.0163
+225639_first_hour,225639,225639_first_hour,hour,0.4815,0.0185
+227456_n_distinct,227456,227456_n_distinct,distinct,0.4815,0.0185
+225641_first_hour,225641,Differential lymphs,hour,0.4799,0.0201
+225643_first_hour,225643,225643_first_hour,hour,0.4795,0.0205
+225642_first_hour,225642,225642_first_hour,hour,0.4776,0.0224
+220632_n_static_hours,220632,Magnesium,hours,0.4743,0.0257
+220051_n_change,220051,Arterial BP diastolic,change,0.4731,0.0269
+220051_n_distinct,220051,Arterial BP diastolic,distinct,0.4714,0.0286
+220050_n_distinct,220050,Arterial BP systolic,distinct,0.4708,0.0292
+220052_n_distinct,220052,Arterial BP mean,distinct,0.4696,0.0304
+227468_n_static_hours,227468,Fibrinogen,hours,0.4676,0.0324
+225642_n_static_hours,225642,225642_n_static_hours,hours,0.4591,0.0409
+223900_n_change,223900,GCS verbal response,change,0.4587,0.0413
+225643_n_static_hours,225643,225643_n_static_hours,hours,0.4586,0.0414
+225639_n_static_hours,225639,225639_n_static_hours,hours,0.4586,0.0414
+225641_n_static_hours,225641,Differential lymphs,hours,0.4585,0.0415
+223900_span,223900,GCS verbal response,span,0.458,0.042
+220632_first_hour,220632,Magnesium,hour,0.4556,0.0444
+227456_first_hour,227456,227456_first_hour,hour,0.453,0.047
+227468_first_hour,227468,Fibrinogen,hour,0.4527,0.0473
+223900_n_distinct,223900,GCS verbal response,distinct,0.451,0.049
+220045_n_static_hours,220045,Heart rate,hours,0.4509,0.0491
+223900_first_hour,223900,GCS verbal response,hour,0.4497,0.0503
+225634_n_distinct,225634,225634_n_distinct,distinct,0.4464,0.0536
+223762_n_static_hours,223762,223762_n_static_hours,hours,0.4427,0.0573
+220210_first_hour,220210,Respiratory rate,hour,0.4379,0.0621
+220545_n_static_hours,220545,Hematocrit,hours,0.4366,0.0634
+220615_n_static_hours,220615,Creatinine,hours,0.4234,0.0766
+227444_n_static_hours,227444,PTT,hours,0.4157,0.0843
+220045_first_hour,220045,Heart rate,hour,0.4071,0.0929
+220546_n_static_hours,220546,White blood cell count,hours,0.404,0.096
+223762_first_hour,223762,223762_first_hour,hour,0.4024,0.0976
+227444_first_hour,227444,PTT,hour,0.3995,0.1005
+220635_n_static_hours,220635,Phosphate,hours,0.3838,0.1162
+220051_first_hour,220051,Arterial BP diastolic,hour,0.3817,0.1183
+225624_n_static_hours,225624,BUN (alternate),hours,0.381,0.119
+220052_first_hour,220052,Arterial BP mean,hour,0.3803,0.1197
+225634_first_hour,225634,225634_first_hour,hour,0.3777,0.1223
+220050_first_hour,220050,Arterial BP systolic,hour,0.3727,0.1273
+227442_n_static_hours,227442,227442_n_static_hours,hours,0.3709,0.1291
+225625_n_static_hours,225625,225625_n_static_hours,hours,0.3688,0.1312
+225677_n_static_hours,225677,Platelet count,hours,0.3631,0.1369
+220645_n_static_hours,220645,220645_n_static_hours,hours,0.3629,0.1371
+220621_n_static_hours,220621,Glucose (serum),hours,0.3367,0.1633

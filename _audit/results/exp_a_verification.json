@@ -1,0 +1,76 @@
+{
+  "permutation": {
+    "real_auc": 0.8615,
+    "permuted_aucs": [
+      0.5018,
+      0.4922,
+      0.4968
+    ],
+    "permuted_mean": 0.4969
+  },
+  "incremental": {
+    "V": 0.8773,
+    "V_plus_M": 0.8923,
+    "delta": 0.0151
+  },
+  "family_decomposition": {
+    "presence (n_distinct)": {
+      "auc": 0.7629,
+      "n_features": 31
+    },
+    "repetition (n_change)": {
+      "auc": 0.8111,
+      "n_features": 31
+    },
+    "timing (first_hour/span)": {
+      "auc": 0.8465,
+      "n_features": 62
+    },
+    "imputed-run (n_static_hours)": {
+      "auc": 0.811,
+      "n_features": 31
+    }
+  },
+  "top_single_features": [
+    {
+      "feature": "220621_span",
+      "auc": 0.6769
+    },
+    {
+      "feature": "220621_n_change",
+      "auc": 0.6633
+    },
+    {
+      "feature": "220621_n_distinct",
+      "auc": 0.6573
+    },
+    {
+      "feature": "225677_n_distinct",
+      "auc": 0.6487
+    },
+    {
+      "feature": "220645_span",
+      "auc": 0.6466
+    },
+    {
+      "feature": "225677_span",
+      "auc": 0.6465
+    },
+    {
+      "feature": "220546_n_distinct",
+      "auc": 0.6449
+    },
+    {
+      "feature": "227442_span",
+      "auc": 0.6445
+    },
+    {
+      "feature": "225625_n_distinct",
+      "auc": 0.6416
+    },
+    {
+      "feature": "225625_span",
+      "auc": 0.64
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+rank,feature,importance,itemid,label
+1,223901_0,0.235,223901,GCS motor response
+2,220635_3,0.2283,220635,Phosphate
+3,220546_range,0.1504,220546,White blood cell count
+4,223900_max,0.1243,223900,GCS verbal response
+5,220050_range,0.0757,220050,Arterial BP systolic
+6,220621_range,0.0476,220621,Glucose (serum)
+7,hosp_to_icu,0.0362,,hosp_to_icu
+8,220615_mean,0.0303,220615,Creatinine
+9,227468_14,0.0223,227468,Fibrinogen
+10,223900_23,0.011,223900,GCS verbal response
+11,220045_diff_0,0.0109,220045,Heart rate
+12,220645_mean,0.009,220645,220645_mean
+13,220621_diff_1,0.0037,220621,Glucose (serum)
+14,220632_min,0.0029,220632,Magnesium
+15,227444_diff_12,0.0024,227444,PTT
+16,220545_4,0.0018,220545,Hematocrit
+17,220052_14,0.0016,220052,Arterial BP mean
+18,220645_diff_1,0.0011,220645,220645_diff_1
+19,220632_diff_5,0.001,220632,Magnesium
+20,220050_21,0.0009,220050,Arterial BP systolic
+21,220051_diff_0,0.0008,220051,Arterial BP diastolic
+22,220052_diff_10,0.0007,220052,Arterial BP mean
+23,225677_range,0.0005,225677,Platelet count
+24,220545_diff_2,0.0004,220545,Hematocrit
+25,220050_diff_0,0.0003,220050,Arterial BP systolic
+26,220210_range,0.0003,220210,Respiratory rate
+27,225641_diff_1,0.0002,225641,Differential lymphs
+28,220052_diff_0,0.0002,220052,Arterial BP mean
+29,220052_diff_19,0.0001,220052,Arterial BP mean
+30,220050_diff_20,0.0,220050,Arterial BP systolic
+31,225641_diff_22,0.0,225641,Differential lymphs
+32,220051_diff_2,0.0,220051,Arterial BP diastolic
+33,220632_diff_0,0.0,220632,Magnesium
+34,225641_diff_0,0.0,225641,Differential lymphs
+35,225624_diff_2,0.0,225624,BUN (alternate)
+36,220621_diff_2,0.0,220621,Glucose (serum)
+37,225612_diff_18,0.0,225612,BUN
+38,220621_diff_0,0.0,220621,Glucose (serum)
+39,225624_diff_0,0.0,225624,BUN (alternate)
+40,225624_diff_1,0.0,225624,BUN (alternate)

@@ -1,0 +1,35 @@
+# ============================================================================
+#  Early Sepsis Prediction — Reproduction and Measurement-Artefact Audit
+#  Requirements for a clean reproduction.
+#
+#  Install:  pip install -r requirements.txt
+# ============================================================================
+
+# --- core analysis ----------------------------------------------------------
+numpy>=2.0
+pandas>=2.2
+scikit-learn>=1.5
+scipy>=1.13
+
+# --- deep-learning arms only ------------------------------------------------
+# The paper's original used keras-core on TensorFlow. This project uses Keras 3
+# on the PyTorch backend, the maintained equivalent; the deviation is documented
+# in the manuscript and changes the parameter counts slightly.
+# Install the CPU build with `pip install torch` or pick a CUDA build from
+# https://pytorch.org/get-started/locally/
+torch>=2.1
+keras>=3.0
+imbalanced-learn>=0.12
+
+# --- rule extraction --------------------------------------------------------
+# TE2Rules is CC BY-NC 4.0 (non-commercial). Required only for
+# _reproduction/te2rules.py and _audit/experiments/exp_d_vacuity.py.
+te2rules>=1.0
+
+# --- figures ----------------------------------------------------------------
+matplotlib>=3.8
+
+# --- paper ------------------------------------------------------------------
+# Not a pip package. Install a LaTeX distribution (MiKTeX, TeX Live) with the
+# IEEEtran class, then:
+#   cd paper && pdflatex main && bibtex main && pdflatex main && pdflatex main

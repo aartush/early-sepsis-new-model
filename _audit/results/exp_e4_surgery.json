@@ -1,0 +1,54 @@
+{
+  "curve": [
+    {
+      "surgery": 0.0,
+      "entangled": 0.8547,
+      "desafe_physio": 0.8467,
+      "desafe_cma": 0.8749,
+      "entangled_sd": 0.0089,
+      "desafe_cma_sd": 0.0124
+    },
+    {
+      "surgery": 0.25,
+      "entangled": 0.8543,
+      "desafe_physio": 0.8467,
+      "desafe_cma": 0.8743,
+      "entangled_sd": 0.0095,
+      "desafe_cma_sd": 0.0121
+    },
+    {
+      "surgery": 0.5,
+      "entangled": 0.8489,
+      "desafe_physio": 0.8466,
+      "desafe_cma": 0.8742,
+      "entangled_sd": 0.012,
+      "desafe_cma_sd": 0.0105
+    },
+    {
+      "surgery": 0.75,
+      "entangled": 0.8451,
+      "desafe_physio": 0.8458,
+      "desafe_cma": 0.8737,
+      "entangled_sd": 0.011,
+      "desafe_cma_sd": 0.0133
+    },
+    {
+      "surgery": 1.0,
+      "entangled": 0.8439,
+      "desafe_physio": 0.846,
+      "desafe_cma": 0.8706,
+      "entangled_sd": 0.0111,
+      "desafe_cma_sd": 0.0105
+    }
+  ],
+  "msi": {
+    "entangled": 0.0108,
+    "desafe_physio": 0.0007,
+    "desafe_cma": 0.0043
+  },
+  "verdict": {
+    "conclusion": "DeSAFE is substantially less mask-dependent than the entangled baseline; the interaction channel does not behave as smuggled surveillance."
+  },
+  "n_folds": 5,
+  "definition": "MSI = AUC(0% surgery) - AUC(100% surgery)"
+}

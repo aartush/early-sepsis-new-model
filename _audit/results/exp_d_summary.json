@@ -1,0 +1,47 @@
+{
+  "vacuity_threshold": 0.95,
+  "positive_balanced": {
+    "n_rules": 38,
+    "mean_clauses": 4.55,
+    "mean_effective_length": 4.26,
+    "rules_with_vacuous_clause": 10,
+    "pct_rules_with_vacuous_clause": 26.3,
+    "total_clauses": 173,
+    "total_vacuous_clauses": 11,
+    "pct_clauses_vacuous": 6.4,
+    "shrinkage_in_mean_length": 0.29
+  },
+  "negative_balanced": {
+    "n_rules": 46,
+    "mean_clauses": 5.35,
+    "mean_effective_length": 5.0,
+    "rules_with_vacuous_clause": 14,
+    "pct_rules_with_vacuous_clause": 30.4,
+    "total_clauses": 246,
+    "total_vacuous_clauses": 16,
+    "pct_clauses_vacuous": 6.5,
+    "shrinkage_in_mean_length": 0.35
+  },
+  "positive_full": {
+    "n_rules": 38,
+    "mean_clauses": 4.55,
+    "mean_effective_length": 4.24,
+    "rules_with_vacuous_clause": 11,
+    "pct_rules_with_vacuous_clause": 28.9,
+    "total_clauses": 173,
+    "total_vacuous_clauses": 12,
+    "pct_clauses_vacuous": 6.9,
+    "shrinkage_in_mean_length": 0.32
+  },
+  "negative_full": {
+    "n_rules": 46,
+    "mean_clauses": 5.35,
+    "mean_effective_length": 4.78,
+    "rules_with_vacuous_clause": 21,
+    "pct_rules_with_vacuous_clause": 45.7,
+    "total_clauses": 246,
+    "total_vacuous_clauses": 26,
+    "pct_clauses_vacuous": 10.6,
+    "shrinkage_in_mean_length": 0.57
+  }
+}

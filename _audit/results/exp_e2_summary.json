@@ -1,0 +1,24 @@
+{
+  "no_cma": {
+    "fold": 2.0,
+    "base_auc": 0.8547,
+    "desafe_auc": 0.8712,
+    "base_brier": 0.0204,
+    "desafe_brier": 0.0189,
+    "base_nb05": 0.0098,
+    "desafe_nb05": 0.011,
+    "base_nb10": 0.0062,
+    "desafe_nb10": 0.0082
+  },
+  "cma": {
+    "fold": 2.0,
+    "base_auc": 0.8547,
+    "desafe_auc": 0.8749,
+    "base_brier": 0.0204,
+    "desafe_brier": 0.0194,
+    "base_nb05": 0.0098,
+    "desafe_nb05": 0.0107,
+    "base_nb10": 0.0062,
+    "desafe_nb10": 0.0076
+  }
+}

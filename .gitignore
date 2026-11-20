@@ -1,0 +1,72 @@
+# ============================================================================
+#  .gitignore
+#
+#  Rule of thumb: commit code, results, figures and the paper. Never commit
+#  patient data, environments, or model checkpoints.
+# ============================================================================
+
+# --- patient data: NEVER commit --------------------------------------------
+# MIMIC-IV and eICU-CRD are governed by PhysioNet credentialed data use
+# agreements that prohibit redistribution. Committing them breaches the
+# agreement and can permanently revoke your PhysioNet access.
+data_raw/
+data_raw_eicu_v2.0/
+data_processed/
+data_processed_eicu/
+shared_dataset_mimiciv.csv
+shared_dataset_eicu.csv
+*.psv
+training_setA/
+training_setB/
+
+# --- the reference study checkout ------------------------------------------
+reference-repo/
+
+# --- Python ----------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# --- environments ----------------------------------------------------------
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# --- model checkpoints (regenerable) ---------------------------------------
+*.keras
+*.h5
+*.pkl
+*.pt
+*.pth
+*.joblib
+_reproduction/models/
+_reproduction/plots/
+
+# --- LaTeX build artifacts -------------------------------------------------
+*.aux
+*.log
+*.blg
+*.bbl
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.xdv
+
+# --- editor / OS -----------------------------------------------------------
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+*~
+
+# --- notebook checkpoints --------------------------------------------------
+.ipynb_checkpoints/

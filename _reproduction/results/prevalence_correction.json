@@ -1,0 +1,82 @@
+{
+  "true_prevalence": 0.0241,
+  "source": "1088 sepsis / 45148 stays in their shared_dataset_mimiciv.csv",
+  "analytic": [
+    {
+      "operating_point": "SEN>=0.90",
+      "sens": 0.91,
+      "spec": 0.59,
+      "precision_balanced_reported": 0.69,
+      "precision_true_prevalence": 0.052,
+      "overstatement_factor": 13.3,
+      "ppv_if_50_cases_per_day": 0.052,
+      "net_benefit_t05": 0.0009,
+      "net_benefit_t10": -0.0225,
+      "net_benefit_t20": -0.0781,
+      "net_benefit_t45": -0.3054
+    },
+    {
+      "operating_point": "max Youden",
+      "sens": 0.79,
+      "spec": 0.81,
+      "precision_balanced_reported": 0.81,
+      "precision_true_prevalence": 0.0931,
+      "overstatement_factor": 8.7,
+      "ppv_if_50_cases_per_day": 0.093,
+      "net_benefit_t05": 0.0093,
+      "net_benefit_t10": -0.0016,
+      "net_benefit_t20": -0.0273,
+      "net_benefit_t45": -0.1327
+    },
+    {
+      "operating_point": "after argumentation",
+      "sens": 0.81,
+      "spec": 0.81,
+      "precision_balanced_reported": 0.82,
+      "precision_true_prevalence": 0.0952,
+      "overstatement_factor": 8.6,
+      "ppv_if_50_cases_per_day": 0.095,
+      "net_benefit_t05": 0.0098,
+      "net_benefit_t10": -0.0011,
+      "net_benefit_t20": -0.0268,
+      "net_benefit_t45": -0.1322
+    }
+  ],
+  "empirical_net_benefit_from_reproduced_predictions": [
+    {
+      "threshold": 0.05,
+      "mean": -0.0203,
+      "std": 0.0035,
+      "min": -0.0273,
+      "max": -0.0135
+    },
+    {
+      "threshold": 0.1,
+      "mean": -0.0546,
+      "std": 0.0092,
+      "min": -0.0818,
+      "max": -0.0346
+    },
+    {
+      "threshold": 0.2,
+      "mean": -0.1062,
+      "std": 0.0152,
+      "min": -0.1411,
+      "max": -0.0748
+    },
+    {
+      "threshold": 0.3,
+      "mean": -0.1407,
+      "std": 0.0202,
+      "min": -0.1853,
+      "max": -0.1016
+    },
+    {
+      "threshold": 0.45,
+      "mean": -0.1659,
+      "std": 0.0291,
+      "min": -0.2587,
+      "max": -0.1162
+    }
+  ]
+}

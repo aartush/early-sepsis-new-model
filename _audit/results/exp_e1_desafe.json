@@ -1,0 +1,13 @@
+{
+  "auc_full": 0.871,
+  "auc_P": 0.8422,
+  "auc_M": 0.7914,
+  "sigma_median": 0.3092,
+  "sigma_iqr": [
+    0.2783,
+    0.3346
+  ],
+  "sigma_cases": 0.2912,
+  "sigma_controls": 0.3051,
+  "n": 45148
+}
